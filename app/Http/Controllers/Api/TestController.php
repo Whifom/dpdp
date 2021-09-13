@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Classes\Helpers\LogHelper;
 use App\Http\Controllers\Controller;
+use App\Models\MongoDb\Test;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Log;
@@ -18,8 +19,6 @@ class TestController extends Controller
      */
     public function healthCheck(): JsonResponse
     {
-        Log::debug('Test');
-
         try {
             $telegram_response = Telegram::setAsyncRequest(false)->getMe();
             $botId = $telegram_response->getId();
@@ -28,6 +27,13 @@ class TestController extends Controller
         } catch (Throwable $throwable) {
             Log::error(LogHelper::exceptionString($throwable));
         }
+
+        Test::insert(
+            [
+                'botId' => $botId,
+                'firstName' => $firstName,
+                'username' => $username,]
+        );
 
         return response()->json(
             [
