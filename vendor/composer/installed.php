@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.6.2',
-        'version' => '8.6.2.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'd28415204f90849ce0491d8035a30de7e53dfae1',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -26,6 +26,15 @@
             'install_path' => __DIR__ . '/../brick/math',
             'aliases' => array(),
             'reference' => 'ca57d18f028f84f777b2168cd1911b0dee2343ae',
+            'dev_requirement' => false,
+        ),
+        'composer/package-versions-deprecated' => array(
+            'pretty_version' => '1.11.99.4',
+            'version' => '1.11.99.4',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./package-versions-deprecated',
+            'aliases' => array(),
+            'reference' => 'b174585d1fe49ceed21928a945138948cb394600',
             'dev_requirement' => false,
         ),
         'cordoval/hamcrest-php' => array(
@@ -104,12 +113,12 @@
             'dev_requirement' => true,
         ),
         'facade/ignition' => array(
-            'pretty_version' => '2.12.0',
-            'version' => '2.12.0.0',
+            'pretty_version' => '2.12.1',
+            'version' => '2.12.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../facade/ignition',
             'aliases' => array(),
-            'reference' => '74dcc32a2895a126d1e5f2cd3bbab499cac66db1',
+            'reference' => '567b0a4ab04367603e61729b0ca133fb7b4819db',
             'dev_requirement' => true,
         ),
         'facade/ignition-contracts' => array(
@@ -176,12 +185,12 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
-            'pretty_version' => '2.0.0',
-            'version' => '2.0.0.0',
+            'pretty_version' => '1.8.2',
+            'version' => '1.8.2.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
-            'reference' => '1dc8d9cba3897165e16d12bb13d813afb1eb3fe7',
+            'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
             'dev_requirement' => false,
         ),
         'hamcrest/hamcrest-php' => array(
@@ -379,6 +388,33 @@
                 0 => 'v8.60.0',
             ),
         ),
+        'irazasyed/telegram-bot-sdk' => array(
+            'pretty_version' => 'v3.4.1',
+            'version' => '3.4.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../irazasyed/telegram-bot-sdk',
+            'aliases' => array(),
+            'reference' => '439552ebbbbbb9051f435c6556bb1c2ba5771425',
+            'dev_requirement' => false,
+        ),
+        'jean85/pretty-package-versions' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jean85/pretty-package-versions',
+            'aliases' => array(),
+            'reference' => '1e0104b46f045868f11942aea058cd7186d6c303',
+            'dev_requirement' => false,
+        ),
+        'jenssegers/mongodb' => array(
+            'pretty_version' => '3.8.4',
+            'version' => '3.8.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jenssegers/mongodb',
+            'aliases' => array(),
+            'reference' => '6aa6ad12b3b52eeab1d090f282c14123ffad1dc9',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -395,12 +431,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.6.2',
-            'version' => '8.6.2.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'd28415204f90849ce0491d8035a30de7e53dfae1',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -448,6 +484,15 @@
             'reference' => 'a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e',
             'dev_requirement' => false,
         ),
+        'league/event' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/event',
+            'aliases' => array(),
+            'reference' => 'd2cc124cf9a3fab2bb4ff963307f60361ce4d119',
+            'dev_requirement' => false,
+        ),
         'league/flysystem' => array(
             'pretty_version' => '1.1.5',
             'version' => '1.1.5.0',
@@ -474,6 +519,15 @@
             'aliases' => array(),
             'reference' => 'd1339f64479af1bee0e82a0413813fe5345a54ea',
             'dev_requirement' => true,
+        ),
+        'mongodb/mongodb' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mongodb/mongodb',
+            'aliases' => array(),
+            'reference' => '953dbc19443aa9314c44b7217a16873347e6840d',
+            'dev_requirement' => false,
         ),
         'monolog/monolog' => array(
             'pretty_version' => '2.3.2',
@@ -547,6 +601,12 @@
             'reference' => '63456f5c3e8c4bc52bd573e5c85674d64d84fd43',
             'dev_requirement' => true,
         ),
+        'ocramius/package-versions' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '1.11.99',
+            ),
+        ),
         'opis/closure' => array(
             'pretty_version' => '3.6.2',
             'version' => '3.6.2.0',
@@ -611,12 +671,12 @@
             'dev_requirement' => false,
         ),
         'phpspec/prophecy' => array(
-            'pretty_version' => '1.13.0',
-            'version' => '1.13.0.0',
+            'pretty_version' => '1.14.0',
+            'version' => '1.14.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpspec/prophecy',
             'aliases' => array(),
-            'reference' => 'be1996ed8adc35c3fd795488a653f4b518be70ea',
+            'reference' => 'd86dfc2e2a3cd366cee475e52c6bb3bbc371aa0e',
             'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
@@ -673,6 +733,15 @@
             'reference' => 'ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b',
             'dev_requirement' => true,
         ),
+        'predis/predis' => array(
+            'pretty_version' => 'v1.1.7',
+            'version' => '1.1.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../predis/predis',
+            'aliases' => array(),
+            'reference' => 'b240daa106d4e02f0c5b7079b41e31ddf66fddf8',
+            'dev_requirement' => false,
+        ),
         'psr/container' => array(
             'pretty_version' => '1.1.1',
             'version' => '1.1.1.0',
@@ -718,21 +787,6 @@
                 0 => '1.0',
             ),
         ),
-        'psr/http-factory' => array(
-            'pretty_version' => '1.0.1',
-            'version' => '1.0.1.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../psr/http-factory',
-            'aliases' => array(),
-            'reference' => '12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
-            'dev_requirement' => false,
-        ),
-        'psr/http-factory-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '1.0',
-            ),
-        ),
         'psr/http-message' => array(
             'pretty_version' => '1.0.1',
             'version' => '1.0.1.0',
@@ -760,8 +814,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
