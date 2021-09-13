@@ -1,6 +1,8 @@
 <?php
 
-use Telegram\Bot\Commands\HelpCommand;
+
+use App\Services\BotCommands\HelpCommand;
+use App\Services\BotCommands\StartCommand;
 
 return [
     /** часть урла слушателя для  WEBHOOKS */
@@ -48,6 +50,7 @@ return [
             'username' => 'dpdpdpua_bot',
             'token' => env('TELEGRAM_BOT_TOKEN', 'YOUR-BOT-TOKEN'),
             'commands' => [
+                StartCommand::class,
                 HelpCommand::class
             ],
             'chat_and_channel_allowed' => [
