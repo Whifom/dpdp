@@ -52,6 +52,7 @@ return [
             'commands' => [
                 StartCommand::class,
                 HelpCommand::class
+
             ],
             'chat_and_channel_allowed' => [
 
