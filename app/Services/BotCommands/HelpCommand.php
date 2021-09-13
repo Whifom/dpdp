@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace App\Services\BotCommands;
 
@@ -10,11 +10,6 @@ class HelpCommand extends Command
      * @var string Command Name
      */
     protected $name = 'help';
-
-    /**
-     * @var array Command Aliases
-     */
-    protected $aliases = ['listcommands'];
 
     /**
      * @var string Command Description
